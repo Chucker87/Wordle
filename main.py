@@ -114,3 +114,4 @@ while True:
         with open(streak_path, 'w') as file:
             file.write(str(streak))
         break
+    print(" ")
