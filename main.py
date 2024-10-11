@@ -25,6 +25,7 @@ while True:
     o = 6
     random_word = get_random_word(file_path)
     low = random_word.lower()
+    #print(low) uncomment this to see the word 
     word = list(low)
 
     hint = []
@@ -52,8 +53,7 @@ while True:
                 x = x + 1
                 guess=str()
                 break
-
-                break
+                
             if guess.isalpha():
                 guess = guess.lower()
                 if len(guess) == 5:
